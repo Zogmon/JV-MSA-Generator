@@ -6,7 +6,7 @@
 *A fully 3D-printed, modular permanent magnet alternator designed to physicalize Faraday's Law, test electromagnetic induction, and generate electricity.*
 
 ![Project Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
-![Build](https://img.shields.io/badge/3D-Print?style=for-the-badge)
+![Build](https://img.shields.io/badge/Build-3D_Printed-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-Custom_Copyright-orange?style=for-the-badge)
 
 </div>
@@ -17,6 +17,8 @@
 > This study investigates the mathematical and physical relationship between coil density and induced electromotive force (EMF) using a custom-designed, 3D-printed permanent magnet alternator (the JV-MSA). Grounded in Faraday’s Law of Induction, the experiment aims to isolate the rate of change (dV/dN) by maintaining a constant angular velocity (50.27 rad/s) and a constant magnetic field (0.1317 T).
 >
 > Experimental data yielded a highly linear relationship (R^2 = 0.9951) with a constant induced EMF of 5.5 mV per coil turn. By setting the algebraic slope of the experimental data equal to the calculus-derived derivation of Faraday's Law, the effective cross-sectional area of the complex 3D-printed coils was successfully reverse-engineered (A_eff = 1,174 mm^2). The physical generator operated with an average error margin of 6.30% compared to the frictionless theoretical model, successfully proving that additive manufacturing can reliably replicate advanced calculus models while highlighting the real-world constraints of magnetic flux leakage and internal wire resistance.
+
+**[🎥 Watch the full physical build and demonstration video here](INSERT_YOUR_YOUTUBE_OR_DRIVE_LINK_HERE)**
 
 ---
 
@@ -56,7 +58,8 @@ This repository is organized into two primary directories:
 ## ⚖️ License & Usage Rights
 **© 2026 Jamal Victor Elbyad. All Rights Reserved.**
 
-I am sharing these files to support the engineering community and encourage collaborative learning. By interacting with this repository, you agree to the following terms:
+I’m sharing my capstone files because I think it is great to be able to share and allow others to see what I did and how I did it. I hope other students or engineers can find this helpful for whatever goal they are trying to pursue. By interacting with this repository, you agree to the following terms:
+
 * **Modifications Allowed:** You are welcome to modify, remix, and improve the CAD files for personal or educational use.
 * **GitHub Only:** You may share your modifications by "forking" this repository directly on GitHub.
 * **No Re-uploading:** You may **NOT** re-upload these files, or any modified versions of them, to other websites, platforms, or 3D-printing repositories (e.g., Thingiverse, Printables, MakerWorld). 
