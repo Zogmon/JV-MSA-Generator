@@ -23,7 +23,7 @@
 ---
 
 ## 🛠️ Hardware & Fabrication
-Unlike industrial testing equipment, this generator was built using accessible additive manufacturing tools to democratize power systems testing.
+I built this generator using 3D printing to show that you don't need an expensive industrial lab to test power systems—you can do high-level engineering with basic tools and some copper wire.
 
 * **CAD Software:** Fusion 360 
 * **Materials:** PLA and PETG Filaments
@@ -58,7 +58,7 @@ This repository is organized into two primary directories:
 ## ⚖️ License & Usage Rights
 **© 2026 Jamal Victor Elbyad. All Rights Reserved.**
 
-I’m sharing my capstone files because I think it is great to be able to share and allow others to see what I did and how I did it. I hope other students or engineers can find this helpful for whatever goal they are trying to pursue. By interacting with this repository, you agree to the following terms:
+I’m sharing my capstone files because I want to be open about my process and show exactly how I built this. I hope other students or engineers find this helpful for whatever projects they are working on. By using this repository, you agree to these terms:
 
 * **Modifications Allowed:** You are welcome to modify, remix, and improve the CAD files for personal or educational use.
 * **GitHub Only:** You may share your modifications by "forking" this repository directly on GitHub.
