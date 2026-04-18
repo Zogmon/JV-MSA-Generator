@@ -18,7 +18,7 @@
 >
 > Experimental data yielded a highly linear relationship (R^2 = 0.9951) with a constant induced EMF of 5.5 mV per coil turn. By setting the algebraic slope of the experimental data equal to the calculus-derived derivation of Faraday's Law, the effective cross-sectional area of the complex 3D-printed coils was successfully reverse-engineered (A_eff = 1,174 mm^2). The physical generator operated with an average error margin of 6.30% compared to the frictionless theoretical model, successfully proving that additive manufacturing can reliably replicate advanced calculus models while highlighting the real-world constraints of magnetic flux leakage and internal wire resistance.
 
-**[🎥 Watch the full physical build and demonstration video here](INSERT_YOUR_YOUTUBE_OR_DRIVE_LINK_HERE)**
+*🎥 **Note:** A full physical build and demonstration video will be uploaded at a later date.*
 
 ---
 
