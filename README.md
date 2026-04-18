@@ -1,25 +1,33 @@
-# JV-MSA: Modular Stator Alternator ⚙️⚡
+<div align="center">
 
-> A fully 3D-printed, modular axial flux alternator designed to physicalize and test Faraday's Law and generate electricity.
+# ⚡ JV-MSA: Modular Stator Alternator ⚙️
 
-![Project Status](https://img.shields.io/badge/Status-Complete-success)
-![Build](https://img.shields.io/badge/Build-3D_Printed-blue)
-![License](https://img.shields.io/badge/License-Custom_Copyright-orange)
+**Honors Calculus Capstone Project**
+*A fully 3D-printed, modular permanent magnet alternator designed to physicalize Faraday's Law, test electromagnetic induction, and generate electricity.*
+
+![Project Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
+![Build](https://img.shields.io/badge/Build-PLA_/_PETG-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/License-Custom_Copyright-orange?style=for-the-badge)
+
+</div>
+
+<br/>
 
 ## 📌 Abstract
-The JV-MSA (Jamal Victor Modular Stator Alternator) is a fully functional, reverse-engineered generator designed to bridge the gap between theoretical calculus and physical electromechanical testing. By utilizing 3D-printed (PETG/TPU) components, this modular platform allows users to swap out copper wire coils of varying densities to test electromagnetic induction with a high degree of mathematical predictability.
-
-**[🎥 Watch the full physical build and demonstration video here](INSERT_YOUR_YOUTUBE_OR_DRIVE_LINK_HERE)**
+> This study investigates the mathematical and physical relationship between coil density and induced electromotive force (EMF) using a custom-designed, 3D-printed permanent magnet alternator (the JV-MSA). Grounded in Faraday’s Law of Induction, the experiment aims to isolate the rate of change (dV/dN) by maintaining a constant angular velocity (50.27 rad/s) and a constant magnetic field (0.1317 T).
+>
+> Experimental data yielded a highly linear relationship (R^2 = 0.9951) with a constant induced EMF of 5.5 mV per coil turn. By setting the algebraic slope of the experimental data equal to the calculus-derived derivation of Faraday's Law, the effective cross-sectional area of the complex 3D-printed coils was successfully reverse-engineered (A_eff = 1,174 mm^2). The physical generator operated with an average error margin of 6.30% compared to the frictionless theoretical model, successfully proving that additive manufacturing can reliably replicate advanced calculus models while highlighting the real-world constraints of magnetic flux leakage and internal wire resistance.
 
 ---
 
 ## 🛠️ Hardware & Fabrication
-Unlike industrial testing equipment, this generator was built using accessible additive manufacturing tools.
+Unlike industrial testing equipment, this generator was built using accessible additive manufacturing tools to democratize power systems testing.
 
-* **CAD Software:** Fusion 360 / Tinkercad
-* **Materials:** PETG and TPU Filaments
+* **CAD Software:** Fusion 360 
+* **Materials:** PLA and PETG Filaments
+* **Conductor:** 26 AWG Copper Wire
 * **Testing Instrumentation:** Fluke 87V Multimeter
-* **Mechanics:** Custom 16:1 step-up gear ratio to maintain constant angular velocity.
+* **Mechanics:** Custom 16:1 step-up gear ratio to maintain a constant angular velocity.
 
 ---
 
@@ -27,26 +35,31 @@ Unlike industrial testing equipment, this generator was built using accessible a
 The primary objective of the JV-MSA was to test the physical output against the theoretical calculus model for electromagnetic induction.
 
 * **Target Equation:** Faraday's Law of Induction
-* **Measured Variance:** The physical prototype achieved an incredibly tight **1.82% error margin** when compared to the theoretical mathematical models.
+* **Measured Variance:** The physical prototype achieved an average **6.30% error margin** when compared to the theoretical mathematical models, tightening to a **1.82% error margin** at 200 turns.
+* **Derived Constants:** Experimental testing established a constant output of **5.5 mV per turn**, which was used to successfully reverse-engineer the coil's Effective Area (**1,174 mm^2**).
 
-*(Full technical data, error margin calculations, and metrological traceability can be found in the attached capstone report).*
+---
+
+## 🚀 Future Development
+The current iteration of the JV-MSA successfully generates measurable Alternating Current (AC). Future plans for this project include designing and integrating a custom Printed Circuit Board (PCB) equipped with a full-bridge rectifier to convert the AC output into stable Direct Current (DC). This will allow the generator to act as a functional, modular power supply for miscellaneous micro-electronics and future engineering projects.
 
 ---
 
 ## 📂 Repository Contents
-* `/CAD_Files`: Contains the raw STL files for 3D printing the stator, gears, and housing.
-* `/Documentation`: Contains the full Honors Calculus Capstone Technical Report (PDF).
-* `/Data`: Raw voltage output logs and error calculation spreadsheets.
+This repository is organized into two primary directories:
+
+* `📁 Cad_Files/` — Contains the raw STL files for 3D printing the stator, gears, and housing.
+* `📁 Documents/` — Contains the full Honors Calculus Capstone Technical Report (PDF), data logs, and demonstration videos.
 
 ---
 
 ## ⚖️ License & Usage Rights
 **© 2026 Jamal Victor Elbyad. All Rights Reserved.**
 
-I am sharing these files to support the engineering community and encourage collaborative learning. By downloading or interacting with this repository, you agree to the following terms:
-* **Modifications Allowed:** You are welcome to modify, remix, and improve the CAD files.
-* **GitHub Only:** You may share your modifications by "forking" this repository on GitHub.
-* **No Re-uploading:** You may **not** re-upload these files, or any modified versions of them, to other websites, platforms, or 3D-printing repositories (e.g., Thingiverse, Printables, MakerWorld). 
-* **Attribution:** Any forks or allowed sharing must clearly credit the original creator: Jamal Victor Elbyad.
+I am sharing these files to support the engineering community and encourage collaborative learning. By interacting with this repository, you agree to the following terms:
+* **Modifications Allowed:** You are welcome to modify, remix, and improve the CAD files for personal or educational use.
+* **GitHub Only:** You may share your modifications by "forking" this repository directly on GitHub.
+* **No Re-uploading:** You may **NOT** re-upload these files, or any modified versions of them, to other websites, platforms, or 3D-printing repositories (e.g., Thingiverse, Printables, MakerWorld). 
+* **Attribution:** Any forks or sharing within GitHub must clearly credit the original creator: Jamal Victor Elbyad.
 
 *(The creator retains all exclusive rights to distribute this project on other platforms).*
