@@ -6,7 +6,7 @@
 *A fully 3D-printed, modular permanent magnet alternator designed to physicalize Faraday's Law, test electromagnetic induction, and generate electricity.*
 
 ![Project Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
-![Build](https://img.shields.io/badge/Build-PLA_/_PETG-blue?style=for-the-badge)
+![Build](https://img.shields.io/badge/3D-Print?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-Custom_Copyright-orange?style=for-the-badge)
 
 </div>
